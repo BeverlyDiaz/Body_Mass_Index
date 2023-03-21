@@ -1,0 +1,100 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Lato, Helvetica, sans-serif;
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    padding: clamp(20px, 5vw, 50px) 10px 10px;
+}
+
+.Container {
+
+  background-color: azure;
+  border: 1px solid black;
+  margin-left: 300px;
+  margin-right: 400px;
+  height: 550px;
+  width: 900px;
+  padding-top: 50px;
+  border: none;
+
+
+}
+
+form {
+
+display: flex;
+flex-direction: row;
+margin-top: 20px;
+margin-left: 5px;
+
+}
+
+h1 {
+
+text-align: center;
+
+}
+
+input {
+
+width: 350px;
+height: 50px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border: none;
+border-radius: 10px;
+padding-left: 10px;
+margin-top: 10px;
+
+}
+
+form p {
+
+  margin-top: 50px;
+  padding-left: 70px;
+  font-size: 16px;
+
+
+}
+
+form input {
+
+margin-left: 70px;
+
+}
+
+button {
+
+margin-top: 50px;
+margin-left: 350px;
+height: 60px;
+width: 200px;
+border: none;
+background-color: orange;
+border-radius: 5px;
+font-size: 20px;
+}
+
+#Resultat {
+
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px
+
+
+}
+
+#Resultat .valeurs-chiffres{
+
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px
+
+
+}
